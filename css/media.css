@@ -1,0 +1,521 @@
+@media (max-width: 992px) {
+    header ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #ff730b;
+        position: fixed;
+        width: 150px;
+        height: 100%;
+        right: -100%;
+        top: 0;
+        transition: 1s;
+    }
+    .burger-menu{
+        display: block;
+    }
+    header ul.show{
+        right: 0;
+        /*animation: 2s nav ;*/
+    }
+    /*@keyframes nav {*/
+    /*    0%{*/
+    /*        right: -100%;*/
+    /*    }*/
+    /*    50%{*/
+    /*        right: 0;*/
+    /*    }*/
+    /*    75%{*/
+    /*        right: -20%;*/
+    /*    }*/
+    /*    100%{*/
+    /*        right: 0;*/
+    /*    }*/
+    /*}*/
+    .container{
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .logo{
+        font-size: 21px;
+    }
+    .menu-item a{
+        font-size: 13px;
+        line-height: 3;
+    }
+    .menu-item a:before{
+        display: none;
+    }
+    .menu-item a:after{
+        display: none;
+    }
+    .menu-item {
+        margin-left: 15px;
+    }
+    .down-btn:hover {
+        display: none;
+    }
+    .down-btn{
+        transition: none;
+    }
+    .hero-title {
+        font-size: 38px;
+        margin-bottom: 5px;
+    }
+    .hero-description {
+        font-size: 16px;
+    }
+    .down-btn{
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+    }
+    .col-7 img{
+        width: 100%;
+        height: 360px;
+    }
+    .about-pre-title {
+        font-size: 18px;
+    }
+    .about-title {
+        font-size: 30px;
+        margin: 2px 0 33px;
+    }
+    .about-description {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    .about-list {
+        list-style: none;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .about-list li {
+        margin-bottom: 5px;
+    }
+    .about-button:hover {
+        display: none;
+    }
+    .title {
+        font-size: 38px;
+    }
+    .title:before {
+        bottom: -8px;
+    }
+    .title:after {
+        bottom: -18px;
+    }
+    .team-box h3 {
+        font-size: 17px;
+        margin: 15px 0 5px;
+    }
+    .team-box h4 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .team-box p{
+        font-size: 12px;
+    }
+    .description {
+        font-size: 14px;
+        margin: 50px 0 70px;
+    }
+    .services-icon {
+        width: 110px;
+        height: 110px;
+        transition: none;
+    }
+    .services-icon:hover {
+        display: none;
+    }
+    .services-title {
+        font-size: 20px;
+        margin: 12px 0 13px;
+    }
+    #clients {
+        padding: 80px 0 140px;
+    }
+    .clients-wrap{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .clients-list-item {
+        margin: 0 8px;
+    }
+    .our-work-tabs label {
+        margin-right: 20px;
+    }
+    .line {
+        right: -13px;
+    }
+    #testimonials {
+        padding: 80px 0 120px;
+    }
+    .testimonials-description {
+        font-size: 15px;
+        margin: 70px 0 30px;
+    }
+    .testimonials-footer {
+        font-size: 15px;
+    }
+    #contact-us input {
+        margin-bottom: 17px;
+        margin-top: 7px;
+    }
+    #contact-us textarea {
+        height: 120px;
+    }
+    #contact-us button:hover {
+        display: none;
+    }
+    .footer-box a:hover {
+        display: none;
+    }
+    .footer-box li:hover {
+        display: none;
+    }
+    .footer-description {
+        font-size: 11px;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .row{
+        margin: 0;
+    }
+    .logo {
+        font-size: 15px;
+    }
+    .menu-item a {
+        font-size: 10px;
+        line-height: 5;
+    }
+    .menu-item {
+        margin-left: 8px;
+    }
+    .hero-title {
+        font-size: 30px;
+        margin-bottom: 3px;
+    }
+    .hero-description {
+        font-size: 12px;
+    }
+    .down-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+    #about {
+        padding: 70px 0;
+    }
+    .col-7 {
+        width: 100%;
+        padding: 0;
+    }
+    .col-7 img {
+        width: 466px;
+        height: 362px;
+    }
+    .col-5{
+        width: 100%;
+        padding: 0;
+    }
+    .about-title {
+        font-size: 24px;
+        margin: 2px 0 26px;
+    }
+    .about-pre-title {
+        font-size: 14px;
+    }
+    .about-description {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .about-list {
+        font-size: 14px;
+        margin-bottom: 26px;
+    }
+    #team {
+        padding: 70px 0 110px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .team-title {
+        margin-bottom: 65px;
+    }
+    .title:after {
+        width: 55px;
+    }
+    .title:before {
+        width: 80px;
+    }
+    .team-box img {
+        width: 85px;
+        height: 95px;
+    }
+    .team-box h3 {
+        font-size: 14px;
+        margin: 8px 0 4px;
+    }
+    .team-box h4 {
+        font-size: 11px;
+        margin-bottom: 14px;
+    }
+    .team-box p {
+        font-size: 10px;
+    }
+    .description {
+        font-size: 12px;
+        margin: 50px 0 50px;
+    }
+    #services {
+        padding: 70px 0 80px;
+    }
+    .services-icon {
+        width: 90px;
+        height: 90px;
+    }
+    .services-title {
+        font-size: 12px;
+        margin: 10px 0 10px;
+    }
+    .services-description {
+        font-size: 11px;
+    }
+    #clients {
+        padding: 70px 0 80px;
+    }
+    .clients-list {
+        margin-top: 70px;
+        text-align: center;
+        display: block;
+    }
+    .clients-list-item {
+        margin: 10px 0;
+    }
+    .our-work__description {
+        font-size: 13px;
+    }
+    .our-work-tabs label{
+        font-size: 14px;
+    }
+    .line {
+        height: 15px;
+        bottom: 4px;
+    }
+    .our-work-item {
+        height: 130px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .col-4 {
+        padding: 10px;
+    }
+    #our-work {
+        padding: 70px 0;
+    }
+    #testimonials {
+        padding: 70px 0 90px;
+    }
+    .testimonials-description {
+        font-size: 13px;
+        margin: 60px 0 20px;
+    }
+    .testimonials-footer {
+        font-size: 13px;
+    }
+    #contact-us {
+        padding: 70px 0;
+    }
+    .contact-us-wrap {
+        max-width: 442px;
+        margin: 0 auto;
+    }
+    .col-6 {
+        padding: 0 10px;
+    }
+    .col-12 {
+        padding: 0 10px;
+    }
+    #contact-us textarea {
+        height: 90px;
+    }
+    #contact-us input {
+        margin-bottom: 12px;
+        margin-top: 0;
+    }
+    #contact-us input {
+        height: 30px;
+    }
+    #contact-us button {
+        height: 25px;
+        width: 75px;
+        transition: 1s;
+        font-size: 12px;
+    }
+    footer {
+        padding: 20px 0;
+    }
+    .footer-description {
+        font-size: 8px;
+    }
+    .footer-box li {
+        width: 20px;
+        height: 20px;
+        transition: 1s;
+        font-size: 10px;
+    }
+}
+@media (max-width: 480px){
+    .container {
+        max-width: 300px;
+    }
+    .menu-item a {
+        font-size: 9px;
+        line-height: 2;
+    }
+    .logo {
+        font-size: 14px;
+        margin: 0 40px 0 0;
+    }
+    .hero-title {
+        font-size: 24px;
+    }
+    .hero-description {
+        font-size: 11px;
+    }
+    .down-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+    }
+    .col-7 img {
+        width: 320px;
+        height: 260px;
+    }
+    .about-pre-title {
+        font-size: 12px;
+    }
+    .about-title {
+        font-size: 20px;
+    }
+    .about-title:before {
+        width: 85px;
+        height: 3px;
+        bottom: -8px;
+    }
+    .about-description {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .about-list {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    .about-button {
+        width: 150px;
+        height: 36px;
+        transition: .1s;
+        font-size: 11px;
+    }
+    .team-box p {
+        margin-bottom: 15px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .title:before {
+        width: 70px;
+        height: 3px;
+    }
+    .title:after {
+        width: 45px;
+        height: 3px;
+    }
+    .team-box img {
+        width: 95px;
+        height: 95px;
+    }
+    .row{
+        margin: 0 -10px;
+    }
+    .col-4 {
+        padding: 0 10px;
+        width: 50%;
+    }
+    .description {
+        font-size: 10px;
+        margin: 40px 0 30px;
+    }
+    .services-icon {
+        width: 80px;
+        height: 80px;
+        border: 3px solid #fcac45;
+    }
+    .services-description {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .services-title {
+        font-size: 12px;
+        margin: 10px 0 2px;
+    }
+    .our-work__description {
+        font-size: 11px;
+    }
+    .our-work-tabs label {
+        font-size: 11px;
+    }
+    .our-work-tabs label {
+        margin-right: 6px;
+    }
+    .line {
+        height: 10px;
+        bottom: 3px;
+        right: -5px;
+    }
+    .testimonials-description {
+        font-size: 11px;
+        margin: 45px 0 15px;
+    }
+    .testimonials-footer {
+        font-size: 11px;
+    }
+    #contact-us input {
+        height: 25px;
+    }
+    .contact-us-wrap {
+        max-width: 300px;
+    }
+    #contact-us label{
+        font-size: 12px;
+    }
+    #contact-us textarea {
+        height: 70px;
+    }
+    #contact-us button {
+        height: 20px;
+        width: 65px;
+        transition: 1s;
+        font-size: 10px;
+    }
+    footer {
+        padding: 15px 0;
+    }
+    .footer-description {
+        font-size: 6px;
+    }
+    .footer-box li {
+        width: 18px;
+        height: 18px;
+        font-size: 10px;
+        margin-right: 4px;
+        border: #b2b2b2 solid 1px;
+    }
+}
